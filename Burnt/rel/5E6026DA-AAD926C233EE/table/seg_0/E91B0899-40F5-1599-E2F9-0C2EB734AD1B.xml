@@ -8,21 +8,10 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="5DA67948-A11A-D3FE-E85A-D3691DE8AB52">
-<createdBy>Netti</createdBy>
-<createdTime>2026-05-17 11:07:40 UTC</createdTime>
+<Column name="id" id="96F9A446-637C-6FCB-84CA-7B43E68B0167">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:51:07 UTC</createdTime>
 <ownerDesignName>Burnt</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="playtime" id="41C77CFD-C1A2-800C-3707-4806E5F4C6F3">
-<createdBy>Netti</createdBy>
-<createdTime>2026-05-17 23:49:51 UTC</createdTime>
-<ownerDesignName>Burnt</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -57,6 +46,37 @@
 <colAssociation fkAssociation="EA0E5490-D569-18D2-EA4C-12A571E2E125" referredColumn="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF"/>
 </associations>
 </Column>
+<Column name="playtime" id="41C77CFD-C1A2-800C-3707-4806E5F4C6F3">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:49:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="347112A4-C20D-971C-BD8C-E3301446982B">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:37 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="F5829CFD-D3FD-E874-099D-12F90C811C3B">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:37 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0A88B0B6-45B9-9F6B-0818-904402E5110C" name="customer_title_PK">
@@ -67,7 +87,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5DA67948-A11A-D3FE-E85A-D3691DE8AB52"/>
+<colUsage columnID="96F9A446-637C-6FCB-84CA-7B43E68B0167"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A4857183-947A-F82B-54D1-14B8F06DE886" name="customer_title_title_FK">

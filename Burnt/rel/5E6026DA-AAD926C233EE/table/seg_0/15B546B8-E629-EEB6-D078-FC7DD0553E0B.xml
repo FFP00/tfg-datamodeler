@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="wallet_id" id="37399488-2461-49EF-CC84-4F984F71223E">
-<createdBy>Netti</createdBy>
-<createdTime>2026-05-17 23:41:27 UTC</createdTime>
+<Column name="wallet_customer_id" id="FB80721A-6864-8138-0D8A-AA315F3E41CC">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:00:11 UTC</createdTime>
 <ownerDesignName>Burnt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,8 +29,28 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1D8AE975-790B-2F86-1898-2B1AB88575D7" referredColumn="19B478B7-4A9B-B7D9-5192-072C7192483C"/>
+<colAssociation fkAssociation="1D8AE975-790B-2F86-1898-2B1AB88575D7" referredColumn="E78D5D6B-BE0C-83E4-1408-E0660D3D90F2"/>
 </associations>
+</Column>
+<Column name="created_at" id="D696E654-F921-36D2-468C-559C2C1C5DFB">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:16:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="B2F753E4-C149-BA63-2843-CF345FDF30A2">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:16:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -52,7 +72,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="37399488-2461-49EF-CC84-4F984F71223E"/>
+<colUsage columnID="FB80721A-6864-8138-0D8A-AA315F3E41CC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

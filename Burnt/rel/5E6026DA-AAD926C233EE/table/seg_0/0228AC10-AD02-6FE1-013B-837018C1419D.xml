@@ -46,6 +46,26 @@
 <colAssociation fkAssociation="3E8974EF-274B-ECE5-5062-E5B2D7024884" referredColumn="052BA967-CD7D-84C3-FDAB-E208564DB047"/>
 </associations>
 </Column>
+<Column name="created_at" id="41FF378F-3A00-B5A2-A9CC-61C17EF4B409">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:22:44 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="F808644B-C9DE-1A42-7D48-14562A261C64">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:22:44 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="803AF454-515B-1972-7653-FB82D2B83BA4" name="genre_title_PK">

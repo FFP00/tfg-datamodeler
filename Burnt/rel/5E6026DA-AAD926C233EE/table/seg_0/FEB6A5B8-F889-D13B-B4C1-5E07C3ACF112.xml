@@ -8,9 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="C6AD44FA-329D-3FF0-2F7F-AFA9DA64F0BB">
-<createdBy>Netti</createdBy>
-<createdTime>2026-05-18 00:14:48 UTC</createdTime>
+<Column name="id" id="F31161D9-F8F2-27B0-177C-138E6C4FBAD3">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:51:30 UTC</createdTime>
 <ownerDesignName>Burnt</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,12 +50,30 @@
 <createdBy>Netti</createdBy>
 <createdTime>2026-05-18 00:22:42 UTC</createdTime>
 <ownerDesignName>Burnt</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="created_at" id="008C5426-5C7C-042F-198D-D655B4E1F684">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:06:45 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="D2807FEE-BD55-C2D2-D5C8-A7898AA40593">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:06:45 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -68,7 +86,7 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C6AD44FA-329D-3FF0-2F7F-AFA9DA64F0BB"/>
+<colUsage columnID="F31161D9-F8F2-27B0-177C-138E6C4FBAD3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="3440FE35-94F7-410F-3022-77A1C42ECBB1" name="friend_of_customer_FK">

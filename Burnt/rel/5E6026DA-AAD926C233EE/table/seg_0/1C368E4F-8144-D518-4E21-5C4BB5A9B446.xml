@@ -18,9 +18,97 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="10A824B6-8F1D-297B-30E9-4B9ACEB82280">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:49:18 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B0459A2C-FF3A-F62A-EC64-2A875A1942D1">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:49:18 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="B24BCE4B-328F-9AF1-F32D-C4DF3FDB77E2">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:49:18 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="3E68BF9D-A4EB-1236-9B4B-B4428D7EE370">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:49:18 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="A848CB5D-8232-BC88-67B7-26CB5B0A5686">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:51:25 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="773CF13B-0659-C3C8-83AA-13D19AF6C469" referredColumn="B2DBE3C6-CAFB-2508-14A9-C96651B26F78"/>
+<colAssociation fkAssociation="6EF9A49B-EAA5-43AA-3E3F-871C457F09FC" referredColumn="A9FD8168-B6BE-5EC0-A631-15B3FC1ECAD7"/>
 </associations>
+</Column>
+<Column name="image_id" id="80AE6575-E57C-AD8F-19DD-3F3089A667FC">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:13:02 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="049AB705-23E4-43E4-23A0-96F9CCD3067C" referredColumn="D2E916D8-02FE-24FD-A937-7EA9D8744032"/>
+</associations>
+</Column>
+<Column name="created_at" id="6D8C2503-972F-FCB5-AAE1-EE65F4B35773">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:28 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="540A7316-6B67-429F-5197-1827F4EDEACF">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:28 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -35,14 +123,24 @@
 <colUsage columnID="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B48F72EA-338B-7999-5A54-088419C3AC4D" name="customer_user_FK">
-<createdBy>Netti</createdBy>
-<createdTime>2026-05-17 23:39:51 UTC</createdTime>
+<ind_PK_UK id="5E952DAD-CF7B-25DD-BC90-3B0542C1199B" name="customer_country_FK">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 10:51:25 UTC</createdTime>
 <ownerDesignName>Burnt</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF"/>
+<colUsage columnID="A848CB5D-8232-BC88-67B7-26CB5B0A5686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8728AE30-B038-B4FB-D72F-0A44FD0297CA" name="customer_image_FK">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:13:02 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80AE6575-E57C-AD8F-19DD-3F3089A667FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

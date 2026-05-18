@@ -84,6 +84,40 @@
 <colAssociation fkAssociation="B219C7B9-3FF8-721D-7FA9-0E66E81AE2A6" referredColumn="4BDA4D2C-0C31-3311-7D3F-41F756EF7C81"/>
 </associations>
 </Column>
+<Column name="media_id" id="8F7F98B3-7160-2AE0-63F3-2D019586DD79">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:14:47 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BEF41A9-2B1E-362D-F25D-AC0302BF0B63" referredColumn="1D9B9D6C-835C-3D05-B905-C4F3CCA4EA9D"/>
+</associations>
+</Column>
+<Column name="created_at" id="16B33CF3-3B14-8A4B-E73A-7F0B265D9597">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="7BD5AE67-2155-B9DC-041F-4772C79C5F87">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:17:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="010AA296-D154-280A-6540-11CB555366DE" name="titles_PK">
@@ -105,6 +139,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F276F643-12CD-AF61-F0E7-86BCCBE1EB1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0726F071-7452-90BD-44BC-62E87F203CD6" name="title_media_FK">
+<createdBy>fff</createdBy>
+<createdTime>2026-05-18 11:14:47 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F7F98B3-7160-2AE0-63F3-2D019586DD79"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
