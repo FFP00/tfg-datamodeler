@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99A72A6E-EB90-3261-8F22-27DFD17F6F65" name="genre">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:34:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="052BA967-CD7D-84C3-FDAB-E208564DB047">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:36:45 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="809729E5-156D-8355-EE40-90082884D624">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:45:45 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16DCAB5E-E0E5-D1D3-2E2F-70A0FFE51580" name="genre_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:36:45 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="052BA967-CD7D-84C3-FDAB-E208564DB047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15B546B8-E629-EEB6-D078-FC7DD0553E0B" name="transaction">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:28:47 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D3C45CF4-C3DE-4B61-EE0D-9A3D3F164DAA">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:29:05 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wallet_id" id="37399488-2461-49EF-CC84-4F984F71223E">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:41:27 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D8AE975-790B-2F86-1898-2B1AB88575D7" referredColumn="19B478B7-4A9B-B7D9-5192-072C7192483C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A14F906-C28F-50F0-93D3-04B38F8E0DAC" name="transaction_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:29:05 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3C45CF4-C3DE-4B61-EE0D-9A3D3F164DAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A17E5DBB-9586-9B33-59E6-3C5E0EA558A8" name="transaction_wallet_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:41:27 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37399488-2461-49EF-CC84-4F984F71223E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

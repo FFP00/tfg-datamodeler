@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0228AC10-AD02-6FE1-013B-837018C1419D" name="genre_title">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:45:59 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5412D4C7-CAAD-AC66-CD31-C3258C72B00C">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 11:07:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title_id" id="17E81A72-7ED2-1496-24FA-DC954EFDC8B3">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:40:57 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DC8477D-BE7F-B3EA-8BAC-1966788E36BF" referredColumn="FAA3D573-857F-8C61-1598-15DCBB1D32C7"/>
+</associations>
+</Column>
+<Column name="genre_id" id="18C1E1F6-1533-2FDD-891C-BC7543A9F205">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:41:01 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E8974EF-274B-ECE5-5062-E5B2D7024884" referredColumn="052BA967-CD7D-84C3-FDAB-E208564DB047"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="803AF454-515B-1972-7653-FB82D2B83BA4" name="genre_title_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 11:07:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5412D4C7-CAAD-AC66-CD31-C3258C72B00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="635C6F97-5CD1-9677-FE5C-0239A21FFBE1" name="genre_title_title_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:40:57 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E81A72-7ED2-1496-24FA-DC954EFDC8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51F07E01-AC0D-E201-F27E-688A021FC922" name="genre_title_genre_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:41:01 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18C1E1F6-1533-2FDD-891C-BC7543A9F205"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

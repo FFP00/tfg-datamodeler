@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DCD8B9C-1FC9-9B5B-F816-736A22051F26" name="comment">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:56:34 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7FFAEFEE-F64F-A620-3668-EED5C0A3B146">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:56:52 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="5AFD1363-F84C-6D03-D089-BE0573DAAF5B">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:04:33 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="votes" id="925A0B82-D430-F936-7F26-215D125C4AF2">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:04:33 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recommends" id="97D59759-C2B2-96C2-063A-81C097ABF02F">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:18:10 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A6BBE8A3-CA19-A6BD-2C0E-E7C97A50C433">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:04:33 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_title_id" id="90FB5CB7-1D43-AB3C-2B6E-EF718C4945AC">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:06:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBC03D16-9CA9-6C47-CF45-EE431C1B3E03" referredColumn="5DA67948-A11A-D3FE-E85A-D3691DE8AB52"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C18228E-33DF-3198-DF50-C6531DF2409C" name="comment_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:56:52 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFAEFEE-F64F-A620-3668-EED5C0A3B146"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8793D754-B7D1-ADD7-106E-D53CC09C5980" name="comment_customer_title_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-18 00:06:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90FB5CB7-1D43-AB3C-2B6E-EF718C4945AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A44360-0633-401B-6971-BF7A581873A5" name="country">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:32:14 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9FD8168-B6BE-5EC0-A631-15B3FC1ECAD7">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:35:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="7D346CB7-F1DC-AA51-3F6D-FDB9F4A8FB0D">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:17:30 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="639AD35B-69B9-CF9E-B249-21398E87FF0D">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:30:55 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="currency_id" id="9887ABC2-188C-4CFD-1FBB-38928CD08F9A">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:39:25 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC579DC7-EF9F-D830-C5A3-5EC0607CBDE2" referredColumn="9DC13C65-6330-A827-94C4-C83A15EE366B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEDA7A83-EBC0-25AD-1816-04895738AB8F" name="country_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:35:48 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9FD8168-B6BE-5EC0-A631-15B3FC1ECAD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF46CDDC-5303-AA24-F0B9-29BEDFC7A0E3" name="country_currency_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:39:25 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9887ABC2-188C-4CFD-1FBB-38928CD08F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

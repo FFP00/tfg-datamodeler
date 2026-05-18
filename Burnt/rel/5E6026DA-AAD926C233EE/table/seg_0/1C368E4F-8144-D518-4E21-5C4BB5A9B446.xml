@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C368E4F-8144-D518-4E21-5C4BB5A9B446" name="customer">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:31:17 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:39:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="773CF13B-0659-C3C8-83AA-13D19AF6C469" referredColumn="B2DBE3C6-CAFB-2508-14A9-C96651B26F78"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="213663DC-6C02-9BE5-CCD9-D9FE07823E99" name="customer_PK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 10:36:22 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B48F72EA-338B-7999-5A54-088419C3AC4D" name="customer_user_FK">
+<createdBy>Netti</createdBy>
+<createdTime>2026-05-17 23:39:51 UTC</createdTime>
+<ownerDesignName>Burnt</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="844C5B2A-F3BA-B961-CDB2-D541C9FCCCAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
